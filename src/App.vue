@@ -1,21 +1,6 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Home</a>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sign Up</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <Nav />
     <div class="auth-wrapper">
       <div class="auth-inner">
         Hello
@@ -25,9 +10,12 @@
 </template>
 
 <script>
-
+import Nav from './components/Nav'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Nav
+  }
 }
 </script>
 
