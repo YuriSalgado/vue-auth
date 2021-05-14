@@ -3,7 +3,7 @@
     <Nav />
     <div class="auth-wrapper">
       <div class="auth-inner">
-        Hello
+        <router-view />
       </div>
     </div>
   </div>
@@ -11,6 +11,7 @@
 
 <script>
 import Nav from './components/Nav'
+
 export default {
   name: 'App',
   components: {
