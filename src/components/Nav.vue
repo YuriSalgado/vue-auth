@@ -29,7 +29,8 @@
         methods: {
           handleClick() {
             localStorage.removeItem('token');
-            this.$route.push("/");
+            this.$store.dispatch('user', null);
+            this.$route.push('/');
           }
         },
         computed: {
