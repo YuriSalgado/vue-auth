@@ -22,15 +22,18 @@
 </template>
 
 <script>
+    import axios from 'axios'
     import {mapGetters} from 'vuex'
 
     export default {
         name: 'Nav',
         methods: {
-          handleClick() {
-            localStorage.removeItem('token');
-            this.$store.dispatch('user', null);
-            this.$route.push('/');
+          async handleClick() {
+            const response = await axios.post('logout');
+            if (response.status == 200) {       
+              this.$store.dispatch('user', null);
+              this.$router.push('/');
+            }
           }
         },
         computed: {

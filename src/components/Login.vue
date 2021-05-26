@@ -33,11 +33,12 @@
                 const response = await axios.post('login', {
                     email: this.email,
                     password: this.password
-                });
+                }, {withCredentials: true});
 
-                localStorage.setItem('token', response.data.token);
-                this.$store.dispatch('user', response.data.user);
-                this.$router.push('/');
+                if (response.status == 200) {
+                    this.$store.dispatch('user', response.data);
+                    this.$router.push('/');
+                }
             }
         }
     }
