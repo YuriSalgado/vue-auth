@@ -14,7 +14,7 @@ Local: http://localhost:8080/
 [MIT](https://choosealicense.com/licenses/mit/)
 
 <p align="center">
-  <img src="https://imgur.com/AlSD2p7?raw=true" alt="Man fit stats - tks undraw - ninaLimpi"/>
-  <img src="https://imgur.com/xZPDpXu?raw=true" alt="Man fit stats - tks undraw - ninaLimpi"/>
-  <img src="https://imgur.com/0fsXpWR?raw=true" alt="Man fit stats - tks undraw - ninaLimpi"/>
+  <img src="https://imgur.com/AlSD2p7.png?raw=true" alt="Login Interface"/>
+  <img src="https://imgur.com/xZPDpXu.png?raw=true" alt="Sign up Interface"/>
+  <img src="https://imgur.com/0fsXpWR.png?raw=true" alt="Not logged Interface"/>
 </p>
