@@ -1,6 +1,6 @@
 # vue-auth
 
-WORK IN PROGRESS.
+Vue-auth é um exemplo de desacoplamento cliente por meio de APIs. Seu projeto servidor é o Node-auth. Ambos completamente separados permitindo uma evolução paralelizável pautada em contratos.
 
 # vuejs + vuex + axios
 npm install
