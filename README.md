@@ -1,17 +1,21 @@
 # vue-auth
 
-Vue-auth é um exemplo de desacoplamento cliente por meio de APIs. Seu projeto servidor é o Node-auth. Ambos completamente separados permitindo uma evolução paralelizável pautada em contratos.
+Vue-auth é uma demonstração de desacoplamento por meio de APIs. O projeto servidor é o [node-auth](https://github.com/YuriSalgado/node-auth). Ambos completamente separados permitindo uma evolução paralelizável orientada a contratos.
+- Vue and TypeScript
+- Bootstrap CSS
+- 4 components
 
-# vuejs + vuex + axios
-npm install
-npm run serve
+## Install
 
-# url
-Local: http://localhost:8080/
+1. Packages `npm install`
 
+## Development server
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Run `npm run serve` for a dev server. 
+
+Navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
+
+## Overview
 
 <p align="center">
   <img src="https://imgur.com/AlSD2p7.png?raw=true" alt="Login Interface"/>
